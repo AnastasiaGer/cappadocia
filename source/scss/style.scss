@@ -3,23 +3,10 @@
 @import "libs";
 @import "fonts";
 
-
-.header {
-  background-image: url('../img/header-bg.jpg');
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0 0;
-}
-
-
-.header__title {
-  font-family: 'Balqis Script';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 250px;
-  line-height: 334px;
-  text-transform: none;
-  color: #000000;
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .title {
@@ -32,14 +19,123 @@
   color: #E2AB3F;
 }
 
-.footer{
+
+.header {
+  background-image: url('../img/header-bg.jpg');
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__list-item {
+  display: inline-block;
+}
+
+.menu__list-item+.menu__list-item {
+  margin-left: 52px;
+}
+
+.menu__list-link{
+  font-weight: 400;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.header__phone {
+  font-weight: 400;
+  padding-left: 40px;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    background-image: url('../img/phone.svg');
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+.header__title {
+  font-family: 'Balqis Script';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 334px;
+
+  padding-top: 170px;
+  text-align: center;
+}
+
+.header__subtitle {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: right;
+  margin-top: -65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
   background-image: url('../img/header-bg.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 0 0;
 }
 
-.footer__title{
+.footer__title {
   font-family: 'Balqis Script';
   font-style: normal;
   font-weight: normal;
@@ -49,7 +145,7 @@
   color: #E2AB3F;
 }
 
-.footer__subtitle{
+.footer__subtitle {
   font-family: 'Balqis Script';
   font-style: normal;
   font-weight: normal;

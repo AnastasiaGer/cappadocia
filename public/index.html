@@ -6,35 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-
   <header class="header">
-    <nav class="menu">
-      <ul class="menu__list">
-        <li class="menu__list-item">
-          <a href="" class="menu__list-link">Route</a>
-        </li>
-        <li class="menu__list-item">
-          <a href="" class="menu__list-link">Hotel</a>
-        </li>
-        <li class="menu__list-item">
-          <a href="" class="menu__list-link">Cost</a>
-        </li>
-      </ul>
-    </nav>
-    <p class="menu__phone">+38(066)555-777-6</p>
+    <div class="container">
+      <div class="header__top">
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="#route" class="menu__list-link">Our trip</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#hotel" class="menu__list-link">Hotel</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#cost" class="menu__list-link">Price</a>
+            </li>
+          </ul>
+        </nav>
+        <a class="header__phone" href="tel:+380665557776">+38(066)555-777-6</a>
+      </div>
 
-    <div class="header__title">Cappadocia</div>
-    <p class="header__subtitle">Exclusive tour</p>
+      <h1 class="header__title">Cappadocia</h1>
+      <p class="header__subtitle">Exclusive tour</p>
+    </div>
   </header>
 
   <section class="about">
-    <h2 class="about__title title ">Fairy tail</h2>
+    <h2 class="about__title title">Fairy tail</h2>
     <p class="about__subtitle">Fairytale wonderland</p>
     <div class="about__slider">
       <div class="about__slider-item">
@@ -47,13 +49,16 @@
         <img src="img/slider-3.jpg" alt="">
       </div>
     </div>
-    <p class="about__text">Cappadocia is a fabulous country of balloons, cheese houses, colorful valleys and magical
-      sunrises!
-      People come here to see natural wonders, fly in a hot air balloon and, of course, take a million beautiful photos!
+    <p class="about__text">
+      Cappadocia is a fabulous country of balloons, cheese houses, colorful
+      valleys and magical sunrises! People come here to see natural wonders,
+      fly in a hot air balloon and, of course, take a million beautiful
+      photos!
     </p>
-    <p class="about__text">Tour participants will have a professional photo session from the best photographers of
-      Cappadocia!
-      After all, people from all over the world come here for magical photos at dawn against the background of balloons!
+    <p class="about__text">
+      Tour participants will have a professional photo session from the best
+      photographers of Cappadocia! After all, people from all over the world
+      come here for magical photos at dawn against the background of balloons!
     </p>
     <p class="about__text-title">You will also see:</p>
     <ul class="about__list">
@@ -64,15 +69,16 @@
       <li class="about__list-item">Zelve and Pashabag</li>
       <li class="about__list-item">and many other attractions.</li>
     </ul>
-    <p class="about__text">Local cuisine is one of the reasons to visit Cappadocia, there are restaurants to suit every
-      budget.</p>
+    <p class="about__text">
+      Local cuisine is one of the reasons to visit Cappadocia, there are
+      restaurants to suit every budget.
+    </p>
   </section>
 
-  <section class="trip">
-    <h2 class="trip__title title ">Our trip</h2>
+  <section id="route" class="trip">
+    <h2 class="trip__title title">Our trip</h2>
     <p class="trip__subtitle">Route</p>
     <div class="trip__days">
-
       <div class="trip__days-item">
         <h3 class="trip__days-number">Day 1</h3>
         <ul class="trip__days-plan">
@@ -113,7 +119,6 @@
       </div>
 
       <button class="trip__btn btn">BOOK NOW</button>
-
     </div>
 
     <div class="trip__slider">
@@ -129,21 +134,29 @@
     </div>
   </section>
 
-  <section class="hotel">
-    <h2 class="hotel__title title ">Hotel</h2>
+  <section id="hotel" class="hotel">
+    <h2 class="hotel__title title">Hotel</h2>
     <p class="hotel__subtitle">Sultan Cave Suites</p>
     <div class="hotel__photo">
       <img src="img/hotel-big.jpg" alt="">
     </div>
     <div class="hotel__info">
-      <p class="hotel__text">At this unique hotel located on the top of Aydinli Hill, you can book rock-cut rooms
-        furnished with antique furniture from all over Turkey. The hotel's sun terrace offers beautiful panoramic views
-        of Goreme National Park.</p>
-      <p class="hotel__text">Most of the rooms at Sultan Cave Suites are carved into the rock to keep you cool and
-        quiet. All rooms are equipped with a seating area and a modern bathroom. Most have a private terrace or balcony.
+      <p class="hotel__text">
+        At this unique hotel located on the top of Aydinli Hill, you can book
+        rock-cut rooms furnished with antique furniture from all over Turkey.
+        The hotel's sun terrace offers beautiful panoramic views of Goreme
+        National Park.
       </p>
-      <p class="hotel__text">Cave Suites Sultan has a gourmet restaurant serving specialties from the Cappadocia region.
-        After dinner, head out onto the terrace to enjoy a drink and watch the sun set over the village.</p>
+      <p class="hotel__text">
+        Most of the rooms at Sultan Cave Suites are carved into the rock to
+        keep you cool and quiet. All rooms are equipped with a seating area
+        and a modern bathroom. Most have a private terrace or balcony.
+      </p>
+      <p class="hotel__text">
+        Cave Suites Sultan has a gourmet restaurant serving specialties from
+        the Cappadocia region. After dinner, head out onto the terrace to
+        enjoy a drink and watch the sun set over the village.
+      </p>
       <div class="hotel__info-photos">
         <img src="img/hotel-photo-1.jpg" alt="">
         <img src="img/hotel-photo-2.jpg" alt="">
@@ -151,22 +164,30 @@
         <img src="img/hotel-photo-4.jpg" alt="">
       </div>
     </div>
-
   </section>
 
-  <section class="price">
-    <h2 class="price__title title ">Price</h2>
+  <section id="cost" class="price">
+    <h2 class="price__title title">Price</h2>
     <p class="price__subtitle">Service cost</p>
     <div class="price__included">
       <h5 class="price__included-title">Included</h5>
       <ul class="price__included-list">
-        <li class="price__included-item">Accommodation in a double room with breakfast</li>
-        <li class="price__included-item">Individual transfer for our group from Ankara and back</li>
-        <li class="price__included-item">Excursion to the Salt Lake</li>
-        <li class="price__included-item">Private Day Tour of the Best Sites of Cappadocia with Private Transportation
+        <li class="price__included-item">
+          Accommodation in a double room with breakfast
         </li>
-        <li class="price__included-item">Photo session with a professional photographer for each participant
-          (Several locations, 5 best photos processed by the photographer and all the material (up to 100 photos)</li>
+        <li class="price__included-item">
+          Individual transfer for our group from Ankara and back
+        </li>
+        <li class="price__included-item">Excursion to the Salt Lake</li>
+        <li class="price__included-item">
+          Private Day Tour of the Best Sites of Cappadocia with Private
+          Transportation
+        </li>
+        <li class="price__included-item">
+          Photo session with a professional photographer for each participant
+          (Several locations, 5 best photos processed by the photographer and
+          all the material (up to 100 photos)
+        </li>
       </ul>
     </div>
 
@@ -174,9 +195,13 @@
       <h5 class="price__included-title">Not included</h5>
       <ul class="price__included-list">
         <li class="price__included-item">Air travel</li>
-        <li class="price__included-item">Lunches and dinners ($ 150 per trip)</li>
+        <li class="price__included-item">
+          Lunches and dinners ($ 150 per trip)
+        </li>
         <li class="price__included-item">Hot air balloon 200 $</li>
-        <li class="price__included-item">Additional excursions (optional) from $ 30</li>
+        <li class="price__included-item">
+          Additional excursions (optional) from $ 30
+        </li>
       </ul>
     </div>
   </section>

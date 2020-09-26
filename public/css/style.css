@@ -16,6 +16,7 @@ html {
  @see https://hankchizljaw.com/wrote/a-modern-css-reset/
  *******************/
 body {
+  max-width: 1920px;
   margin: 0 auto;
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -52,7 +53,8 @@ dd {
 
 a {
   display: inline-block;
-  text-decoration: none; }
+  text-decoration: none;
+  color: inherit; }
 
 /*******************
  Lists
@@ -490,24 +492,14 @@ html.fp-enabled,
 @font-face {
   font-family: 'Balqis Script';
   src: local("Balqis Script"), url("../fonts/balqis.woff2") format("woff2"), local("Balqis Script"), url("../fonts/balqis.woff") format("woff");
-  font-weight: normal;
+  font-weight: 300;
   font-style: normal;
   font-display: swap; }
 
-.header {
-  background-image: url("../img/header-bg.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 0 0; }
-
-.header__title {
-  font-family: 'Balqis Script';
-  font-style: normal;
-  font-weight: normal;
-  font-size: 250px;
-  line-height: 334px;
-  text-transform: none;
-  color: #000000; }
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px; }
 
 .title {
   font-family: 'Balqis Script';
@@ -516,6 +508,74 @@ html.fp-enabled,
   font-size: 96px;
   line-height: 128px;
   color: #E2AB3F; }
+
+.header {
+  background-image: url("../img/header-bg.jpg");
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center; }
+
+.header__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 72px;
+  font-size: 24px;
+  line-height: 28px; }
+
+.menu__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.menu__list-item {
+  display: inline-block; }
+
+.menu__list-item + .menu__list-item {
+  margin-left: 52px; }
+
+.menu__list-link {
+  font-weight: 400; }
+  .menu__list-link:hover {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline; }
+
+.header__phone {
+  font-weight: 400;
+  padding-left: 40px;
+  position: relative; }
+  .header__phone:before {
+    position: absolute;
+    content: '';
+    background-image: url("../img/phone.svg");
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0; }
+
+.header__title {
+  font-family: 'Balqis Script';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 250px;
+  line-height: 334px;
+  padding-top: 170px;
+  text-align: center; }
+
+.header__subtitle {
+  font-style: italic;
+  font-weight: 300;
+  font-size: 56px;
+  line-height: 66px;
+  text-align: right;
+  margin-top: -65px; }
 
 .footer {
   background-image: url("../img/header-bg.jpg");

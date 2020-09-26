@@ -16,7 +16,7 @@
  @see https://hankchizljaw.com/wrote/a-modern-css-reset/
  *******************/
 body {
-
+  max-width: 1920px;
   margin: 0 auto;
   min-height: 100vh;
   scroll-behavior: smooth;
@@ -58,6 +58,7 @@ dd {
 a {
   display: inline-block;
   text-decoration: none;
+  color: inherit;
 }
 
 /*******************
