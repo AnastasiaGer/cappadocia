@@ -4,7 +4,59 @@
 @import "fonts";
 
 
+.header {
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+}
 
 
+.header__title {
+  font-family: 'Balqis Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 250px;
+  line-height: 334px;
+  text-transform: none;
+  color: #000000;
+}
+
+.title {
+  font-family: 'Balqis Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 96px;
+  line-height: 128px;
+
+  color: #E2AB3F;
+}
+
+.footer{
+  background-image: url('../img/header-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 0 0;
+}
+
+.footer__title{
+  font-family: 'Balqis Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 86px;
+  line-height: 115px;
+
+  color: #E2AB3F;
+}
+
+.footer__subtitle{
+  font-family: 'Balqis Script';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 86px;
+  line-height: 115px;
+
+  color: #000000;
+}
 
 @import "media";
