@@ -502,7 +502,7 @@ html.fp-enabled,
   padding: 0 15px; }
 
 .page-section {
-  margin: 200px 0; }
+  margin: 200px auto; }
 
 .title {
   font-family: 'Balqis Script';
@@ -518,7 +518,6 @@ html.fp-enabled,
   font-size: 24px;
   line-height: 28px;
   margin-top: -30px;
-  margin-left: 185px;
   margin-bottom: 100px; }
 
 .header {
@@ -589,6 +588,9 @@ html.fp-enabled,
   text-align: right;
   margin-top: -65px; }
 
+.about__subtitle {
+  margin-left: 185px; }
+
 .about__slider {
   width: 50%; }
 
@@ -615,7 +617,7 @@ html.fp-enabled,
 .about__inner {
   position: relative; }
 
-.about__container {
+.about__content {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
@@ -649,9 +651,8 @@ html.fp-enabled,
   padding-right: 10px; }
 
 .trip__slider {
-  max-width: 640px;
-  position: relative;
-  margin: 0 auto; }
+  width: 50%;
+  margin-left: auto; }
 
 .trip__slider__btn {
   position: absolute;
@@ -672,6 +673,60 @@ html.fp-enabled,
 
 .trip__slider__btnnext {
   right: -15px; }
+
+.trip__inner {
+  position: relative; }
+
+.trip__content {
+  padding-right: 55px; }
+
+.trip__container {
+  max-width: 1230px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.trip__subtitle {
+  margin-left: 240px; }
+
+.trip__days {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%; }
+
+.trip__days-item {
+  margin: 5px 0; }
+
+.trip__days-number {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px; }
+
+.trip__days-planpoint {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px; }
+
+.btn {
+  width: 280px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  border: 1px solid #E2AB3F;
+  padding: 11px 54px; }
 
 .footer {
   background-image: url("../img/header-bg.jpg");
