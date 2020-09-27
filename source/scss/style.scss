@@ -10,7 +10,7 @@
 }
 
 .page-section {
-  margin: 200px 0;
+  margin: 200px auto;
 }
 
 .title {
@@ -136,12 +136,11 @@
   right: -15px;
 }
 
-.about__inner{
+.about__inner {
   position: relative;
-
 }
 
-.about__container{
+.about__content {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
@@ -152,7 +151,7 @@
   left: 0;
 }
 
-.about__body{
+.about__body {
   width: 50%;
   margin-left: auto;
   padding-left: 55px;
@@ -162,13 +161,13 @@
   height: 100%;
 }
 
-.about__text-title{
+.about__text-title {
   font-weight: normal;
   font-size: 18px;
   line-height: 21px;
 }
 
-.about__text{
+.about__text {
   padding-right: 10px;
 }
 
@@ -178,9 +177,7 @@
 
 
 .trip__slider {
-  max-width: 640px;
-  position: relative;
-  margin: 0 auto;
+  width: 50%;
 }
 
 .trip__slider__btn {
@@ -206,15 +203,57 @@
 }
 
 
+.trip__inner {
+  position: relative;
+}
+
+.trip__content {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.trip__days {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
 
 
+.trip__days-number {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.trip__days-planpoint {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+}
 
 
-
-
-
-
-
+.btn {
+  width: 280px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  border: 1px solid #E2AB3F;
+  padding: 11px 54px;
+  text-align: center;
+}
 
 
 

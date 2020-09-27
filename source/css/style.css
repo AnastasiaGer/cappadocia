@@ -502,7 +502,7 @@ html.fp-enabled,
   padding: 0 15px; }
 
 .page-section {
-  margin: 200px 0; }
+  margin: 200px auto; }
 
 .title {
   font-family: 'Balqis Script';
@@ -615,7 +615,7 @@ html.fp-enabled,
 .about__inner {
   position: relative; }
 
-.about__container {
+.about__content {
   max-width: 1230px;
   margin: 0 auto;
   padding: 0 15px;
@@ -649,9 +649,7 @@ html.fp-enabled,
   padding-right: 10px; }
 
 .trip__slider {
-  max-width: 640px;
-  position: relative;
-  margin: 0 auto; }
+  width: 50%; }
 
 .trip__slider__btn {
   position: absolute;
@@ -672,6 +670,56 @@ html.fp-enabled,
 
 .trip__slider__btnnext {
   right: -15px; }
+
+.trip__inner {
+  position: relative; }
+
+.trip__content {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+.trip__days {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 55px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  height: 100%; }
+
+.trip__days-number {
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px; }
+
+.trip__days-planpoint {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px; }
+
+.btn {
+  width: 280px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  background: #FFFFFF;
+  border: 1px solid #E2AB3F;
+  padding: 11px 54px;
+  text-align: center; }
 
 .footer {
   background-image: url("../img/header-bg.jpg");
