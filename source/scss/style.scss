@@ -263,19 +263,34 @@ padding-right: 55px;
 
 
 
+.hotel__subtitle{
+  margin-left: 120px;
+}
 
 
+.hotel_inner{
+  display: flex;
+}
+
+.hotel__images{
+  margin-right: 100px;
+}
+
+.hotel__text{
+  margin-bottom: 40px;
+}
 
 
+.hotel__gallery{
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
 
-
-
-
-
-
-
-
-
+.hotel__gallery a{
+margin-top: 50px;
+}
 
 
 

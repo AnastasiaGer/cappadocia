@@ -728,6 +728,34 @@ html.fp-enabled,
   border: 1px solid #E2AB3F;
   padding: 11px 54px; }
 
+.hotel__subtitle {
+  margin-left: 120px; }
+
+.hotel_inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.hotel__images {
+  margin-right: 100px; }
+
+.hotel__text {
+  margin-bottom: 40px; }
+
+.hotel__gallery {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.hotel__gallery a {
+  margin-top: 50px; }
+
 .footer {
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
