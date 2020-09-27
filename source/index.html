@@ -8,6 +8,8 @@
   <title>Document</title>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300&display=swap"
     rel="stylesheet" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
   <link rel="stylesheet" href="css/style.min.css" />
 </head>
 
@@ -153,33 +155,44 @@
     <div class="container">
       <h2 class="hotel__title title">Hotel</h2>
       <p class="hotel__subtitle subtitle">Sultan Cave Suites</p>
-      <div class="hotel__photo">
-        <img src="img/hotel-big.jpg" alt="" />
-      </div>
-      <div class="hotel__info">
-        <p class="hotel__text">
-          At this unique hotel located on the top of Aydinli Hill, you can book
-          rock-cut rooms furnished with antique furniture from all over Turkey.
-          The hotel's sun terrace offers beautiful panoramic views of Goreme
-          National Park.
-        </p>
-        <p class="hotel__text">
-          Most of the rooms at Sultan Cave Suites are carved into the rock to
-          keep you cool and quiet. All rooms are equipped with a seating area
-          and a modern bathroom. Most have a private terrace or balcony.
-        </p>
-        <p class="hotel__text">
-          Cave Suites Sultan has a gourmet restaurant serving specialties from
-          the Cappadocia region. After dinner, head out onto the terrace to
-          enjoy a drink and watch the sun set over the village.
-        </p>
-        <div class="hotel__info-photos">
-          <img src="img/hotel-photo-1.jpg" alt="" />
-          <img src="img/hotel-photo-2.jpg" alt="" />
-          <img src="img/hotel-photo-3.jpg" alt="" />
-          <img src="img/hotel-photo-4.jpg" alt="" />
+      <div class="hotel_inner">
+        <img class="hotel__images" src="img/hotel-big.jpg" alt="" />
+
+        <div class="hotel__content">
+          <p class="hotel__text">
+            At this unique hotel located on the top of Aydinli Hill, you can book
+            rock-cut rooms furnished with antique furniture from all over Turkey.
+            The hotel's sun terrace offers beautiful panoramic views of Goreme
+            National Park.
+          </p>
+          <p class="hotel__text">
+            Most of the rooms at Sultan Cave Suites are carved into the rock to
+            keep you cool and quiet. All rooms are equipped with a seating area
+            and a modern bathroom. Most have a private terrace or balcony.
+          </p>
+          <p class="hotel__text">
+            Cave Suites Sultan has a gourmet restaurant serving specialties from
+            the Cappadocia region. After dinner, head out onto the terrace to
+            enjoy a drink and watch the sun set over the village.
+          </p>
+          <div class="hotel__gallery">
+            <a href="img/hotel-photo-1.jpg" data-fancybox="images" data-width="1400" data-height="750">
+              <img src="img/hotel-photo-1.jpg" alt="" />
+            </a>
+            <a href="img/hotel-photo-2.jpg" data-fancybox="images" data-width="1400" data-height="750">
+              <img src="img/hotel-photo-2.jpg" alt="" />
+            </a>
+            <a href="img/hotel-photo-3.jpg" data-fancybox="images" data-width="1400" data-height="750">
+              <img src="img/hotel-photo-3.jpg" alt="" />
+            </a>
+            <a href="img/hotel-photo-4.jpg" data-fancybox="images" data-width="1400" data-height="750">
+              <img src="img/hotel-photo-4.jpg" alt="" />
+            </a>
+          </div>
         </div>
       </div>
+
+
     </div>
   </section>
 
@@ -257,6 +270,8 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/libs.min.js"></script>
+  <script src="js/slick.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 
