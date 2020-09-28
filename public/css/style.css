@@ -649,29 +649,26 @@ html.fp-enabled,
 .about__text {
   padding-right: 10px; }
 
-.trip__slider {
-  width: 50%;
-  margin-left: auto; }
-
-.trip__slider__btn {
+.slick-btn {
   position: absolute;
-  width: 70px;
-  height: 70px;
   top: 50%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+  z-index: 5;
+  cursor: pointer;
   background-color: transparent;
   border: none;
-  padding: 0;
-  margin: 0;
-  z-index: 5;
-  cursor: pointer; }
+  outline: none; }
 
-.trip__slider__btnprev {
-  left: -15px; }
+.slick-prev {
+  left: 0; }
 
-.trip__slider__btnnext {
-  right: -15px; }
+.slick-next {
+  right: 0; }
+
+.trip__slider {
+  width: 50%;
+  margin-left: auto; }
 
 .trip__inner {
   position: relative; }
