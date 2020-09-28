@@ -11,6 +11,7 @@
 
 .page-section {
   margin: 200px auto;
+  max-width: 1920px;
 }
 
 .title {
@@ -177,32 +178,30 @@
   padding-right: 10px;
 }
 
+.slick-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
+
+
 
 .trip__slider {
   width: 50%;
   margin-left: auto;
-}
-
-.trip__slider__btn {
-  position: absolute;
-  width: 70px;
-  height: 70px;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: transparent;
-  border: none;
-  padding: 0;
-  margin: 0;
-  z-index: 5;
-  cursor: pointer;
-}
-
-.trip__slider__btnprev {
-  left: -15px;
-}
-
-.trip__slider__btnnext {
-  right: -15px;
 }
 
 .trip__inner {
@@ -221,7 +220,8 @@
 }
 
 .trip__content {
-  padding-right: 15px;
+  width: 50%;
+  padding-right: 55px;
 }
 
 .trip__subtitle {
