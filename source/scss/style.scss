@@ -11,6 +11,7 @@
 
 .page-section {
   margin: 200px auto;
+  max-width: 1920px;
 }
 
 .title {
@@ -221,7 +222,8 @@
 }
 
 .trip__content {
-  padding-right: 15px;
+  width: 50%;
+  padding-right: 55px;
 }
 
 .trip__subtitle {

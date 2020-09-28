@@ -1,0 +1,75 @@
+@media (max-width: 1380px) {
+  .header__title {
+    padding-top: 70px;
+  }
+
+  .price {
+    background-position: none;
+  }
+}
+
+@media (max-width: 1240px) {
+  .header__title {
+    padding-top: 120px;
+    font-size: 180px;
+    line-height: 220px;
+  }
+
+  .subtitle {
+    font-size: 50px;
+    margin-top: -50px;
+  }
+
+  .hotel__images {
+    height: 700px;
+  }
+}
+
+@media (max-width: 991px) {
+  .page-section {
+    margin: 100px 0;
+  }
+
+  .about__container,
+  .trip__container {
+    position: static;
+  }
+
+  .about__slider {
+    width: 100%;
+  }
+
+  .about__body {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .trip__slider {
+    width: 100%;
+  }
+
+  .trip__list-right {
+    justify-content: end;
+  }
+
+  .trip__days {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .hotel__images {
+    display: none;
+  }
+
+  .request__images {
+    display: none;
+  }
+
+  .request__inner {
+    align-items: center;
+  }
+
+  .footer {
+    display: none;
+  }
+}

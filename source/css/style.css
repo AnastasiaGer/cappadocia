@@ -16,8 +16,6 @@ html {
  @see https://hankchizljaw.com/wrote/a-modern-css-reset/
  *******************/
 body {
-  max-width: 1920px;
-  margin: 0 auto;
   min-height: 100vh;
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
@@ -502,7 +500,8 @@ html.fp-enabled,
   padding: 0 15px; }
 
 .page-section {
-  margin: 200px auto; }
+  margin: 200px auto;
+  max-width: 1920px; }
 
 .title {
   font-family: 'Balqis Script';
@@ -687,7 +686,8 @@ html.fp-enabled,
   left: 0; }
 
 .trip__content {
-  padding-right: 15px; }
+  width: 50%;
+  padding-right: 55px; }
 
 .trip__subtitle {
   margin-left: 240px; }
@@ -980,3 +980,51 @@ html.fp-enabled,
 
 .footer__social a {
   margin: 0 7px; }
+
+@media (max-width: 1380px) {
+  .header__title {
+    padding-top: 70px; }
+  .price {
+    background-position: none; } }
+
+@media (max-width: 1240px) {
+  .header__title {
+    padding-top: 120px;
+    font-size: 180px;
+    line-height: 220px; }
+  .subtitle {
+    font-size: 50px;
+    margin-top: -50px; }
+  .hotel__images {
+    height: 700px; } }
+
+@media (max-width: 991px) {
+  .page-section {
+    margin: 100px 0; }
+  .about__container,
+  .trip__container {
+    position: static; }
+  .about__slider {
+    width: 100%; }
+  .about__body {
+    width: 100%;
+    padding-left: 0; }
+  .trip__slider {
+    width: 100%; }
+  .trip__list-right {
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end; }
+  .trip__days {
+    width: 100%;
+    padding-left: 0; }
+  .hotel__images {
+    display: none; }
+  .request__images {
+    display: none; }
+  .request__inner {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+  .footer {
+    display: none; } }
